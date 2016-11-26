@@ -1,0 +1,230 @@
+@font-face {
+  font-family: "ProximaNova-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "ProximaNova-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ProximaNova-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Light.woff") format("woff"); }
+
+@font-face {
+  font-family: "ProximaNova-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "ProximaNova-Black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ProximaNova-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Black.woff") format("woff"); }
+
+body {
+  font-size: 1em;
+  background-image: url(../img/bg.png);
+  min-height: 3500px; }
+
+ul {
+  padding-left: 0;
+  list-style-type: none; }
+
+header {
+  position: relative; }
+  header .phone {
+    padding-top: 11px;
+    padding-bottom: 15px; }
+    header .phone p {
+      float: left;
+      padding: 16px 19px;
+      display: inline-block;
+      margin-bottom: 0;
+      border: 1px solid #8b6d4c;
+      font-size: 1.3125em;
+      font-family: "ProximaNova-Black", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+      color: #fff;
+      line-height: 32px;
+      background-image: url(../img/bg.png);
+      position: relative;
+      z-index: 100; }
+    header .phone a {
+      display: inline-block;
+      float: left;
+      background-color: rgba(138, 109, 76, 0.8);
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 1em;
+      padding: 13px;
+      color: #fff;
+      font-family: "ProximaNova-Light", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+      -webkit-transition: all .5s ease-out;
+      transition: all .5s ease-out;
+      position: relative;
+      z-index: 999; }
+      header .phone a:hover {
+        text-decoration: none;
+        color: #c69c6d;
+        background-color: #fff; }
+  header .line1 {
+    height: 792px;
+    width: 10px;
+    background-color: #5849ae;
+    position: absolute;
+    top: 0;
+    right: 497px;
+    z-index: 2; }
+  header .line2 {
+    height: 792px;
+    width: 5px;
+    background-color: #5849ae;
+    position: absolute;
+    top: 0;
+    right: 298px;
+    z-index: 2; }
+  header .line3 {
+    height: 715px;
+    width: 5px;
+    background-color: #c69c6d;
+    position: absolute;
+    top: 77px;
+    right: 350px;
+    z-index: -1; }
+
+.navigation {
+  background-color: #483466;
+  border-top: 7px solid #2b1f3d;
+  border-bottom: 7px solid #2b1f3d;
+  margin-top: 15px; }
+  .navigation ul {
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2; }
+    .navigation ul li {
+      display: inline-block;
+      margin-left: -4px;
+      padding: 23px;
+      -webkit-transition: all .5s ease-out;
+      transition: all .5s ease-out; }
+      .navigation ul li:hover {
+        background-color: #835c94; }
+      .navigation ul li a {
+        position: relative;
+        display: inline-block;
+        color: #c69c6d;
+        font-size: 1.3125em;
+        font-family: "ProximaNova-Light", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+        text-transform: uppercase; }
+        .navigation ul li a:hover {
+          text-decoration: none; }
+    .navigation ul .logo {
+      position: relative;
+      width: 310px;
+      padding: 0; }
+      .navigation ul .logo:hover {
+        background: none; }
+      .navigation ul .logo a img {
+        position: absolute;
+        left: -87px;
+        top: -91px; }
+
+.service {
+  padding-top: 100px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1; }
+  .service .head {
+    padding-bottom: 40px;
+    padding-left: 17px; }
+    .service .head h1 {
+      font-family: "ProximaNova-Black", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+      font-size: 3.5em;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 0px; }
+  .service .s-desc {
+    padding-left: 22px;
+    border-left: 2px solid #c69c6d;
+    width: 80%;
+    margin-bottom: 35px; }
+    .service .s-desc p {
+      font-family: "ProximaNova-Light", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+      font-size: 1em;
+      color: #fff;
+      margin: 0px;
+      line-height: 24px; }
+      .service .s-desc p:first-child {
+        padding-bottom: 22px; }
+  .service .but {
+    width: 85%;
+    position: relative;
+    -webkit-transition: all .35s ease-out;
+    transition: all .35s ease-out; }
+    .service .but:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -40px;
+      border-style: solid;
+      border-width: 38px 0px 0px 40px;
+      border-color: transparent transparent transparent #8963c3;
+      width: 8%;
+      height: 50%; }
+    .service .but:before {
+      content: "";
+      position: absolute;
+      top: 38px;
+      right: -40px;
+      border-style: solid;
+      border-width: 0px 0px 38px 40px;
+      border-color: transparent transparent transparent #6a45b8;
+      width: 8%;
+      height: 50%; }
+    .service .but button {
+      width: 100%;
+      display: inline-block;
+      padding: 28px 0;
+      text-transform: uppercase;
+      color: #fff;
+      font-family: "ProximaNova-Black", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+      font-size: 1.125em;
+      background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #6a45b8), color-stop(50%, #8963c3));
+      background-image: -webkit-linear-gradient(bottom, #6a45b8 50%, #8963c3 50%);
+      background-image: linear-gradient(to top, #6a45b8 50%, #8963c3 50%);
+      outline: none;
+      border: none;
+      -webkit-transition: all .35s ease-out;
+      transition: all .35s ease-out; }
+      .service .but button:hover {
+        color: #c69c6d; }
+  .service .persefona {
+    content: "";
+    position: absolute;
+    top: 123px;
+    right: 193px;
+    z-index: 3; }
+  .service .bottom-line1 {
+    width: 100%;
+    height: 12px;
+    background-color: #8d6e51;
+    margin-top: 30px; }
+  .service .bottom-line2 {
+    width: 100%;
+    height: 23px;
+    background-color: rgba(182, 143, 101, 0.9);
+    position: relative;
+    z-index: 3; }
+
+.work {
+  background-image: url(../img/work-bg.jpg);
+  background-size: cover;
+  min-height: 625px; }
+  .work .content {
+    background-image: url(../img/content-bg.jpg);
+    min-height: 625px;
+    margin-right: 59px;
+    margin-left: -15px; }
+    .work .content .inner {
+      min-height: 625px;
+      background-color: rgba(89, 72, 160, 0.7); }

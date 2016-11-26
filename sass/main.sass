@@ -1,0 +1,217 @@
+@import "bourbon"
+@import "_vars"
+@import "_fonts"
+
+body
+	font-size: em(16px)
+	background-image: url(../img/bg.png)
+	min-height: 3500px
+
+ul
+	padding-left: 0
+	list-style-type: none
+
+
+header
+	position: relative
+	.phone
+		padding: 
+			top: 11px
+			bottom: 15px
+
+		p
+			float: left
+			padding: 16px 19px
+			display: inline-block
+			margin-bottom: 0
+			border: 1px solid #8b6d4c
+			font-size: em(21px)
+			font-family: "ProximaNova-Black", $helvetica
+			color: $white-color
+			line-height: 32px
+			background-image: url(../img/bg.png)
+			position: relative
+			z-index: 100
+			
+		a
+			display: inline-block
+			float: left
+			background-color: rgba(138, 109, 76, .8)
+			text-transform: uppercase
+			text-align: center
+			font-size: em(16)
+			padding: 13px
+			color: $white-color
+			font-family: "ProximaNova-Light", $helvetica
+			transition: all .5s ease-out
+			position: relative
+			z-index: 999
+			&:hover
+				text-decoration: none
+				color: $main-color
+				background-color: $white-color
+
+	.line1
+    height: 792px
+    width: 10px
+    background-color: #5849ae
+    position: absolute
+    top: 0
+    right: 497px
+    z-index: 2
+
+	.line2
+		height: 792px
+		width: 5px
+		background-color: #5849ae
+		position: absolute
+		top: 0
+		right: 298px
+		z-index: 2
+
+	.line3
+		height: 715px
+		width: 5px
+		background-color: #c69c6d
+		position: absolute
+		top: 77px
+		right: 350px
+		z-index: -1
+
+.navigation
+	background-color: #483466
+	border-top: 7px solid #2b1f3d
+	border-bottom: 7px solid #2b1f3d
+	margin-top: 15px
+	ul
+		margin-bottom: 0
+		position: relative
+		z-index: 2
+		li
+			display: inline-block
+			margin-left: -4px
+			padding: 23px
+			transition: all .5s ease-out
+			&:hover
+				background-color: #835c94
+			a
+				position: relative
+				display: inline-block
+				color: $main-color
+				font-size: em(21px)
+				font-family: "ProximaNova-Light", $helvetica
+				text-transform: uppercase
+				&:hover
+					text-decoration: none
+		.logo
+			position: relative
+			width: 310px
+			padding: 0
+			&:hover
+				background: none
+			a
+				img
+					position: absolute
+					left: -87px
+					top: -91px
+
+.service
+	padding-top: 100px
+	position: relative
+	overflow: hidden
+	z-index: 1
+	.head
+		padding-bottom: 40px
+		padding-left: 17px
+		h1
+			font-family: "ProximaNova-Black", $helvetica
+			font-size: em(56px)
+			color: $white-color
+			text-transform: uppercase
+			margin: 0px
+	.s-desc
+		padding-left: 22px
+		border-left: 2px solid $main-color
+		width: 80%
+		margin-bottom: 35px
+		p
+			font-family: "ProximaNova-Light", $helvetica
+			font-size: em(16px)
+			color: $white-color
+			margin: 0px
+			line-height: 24px
+			&:first-child
+				padding-bottom: 22px
+
+	.but
+		width: 85%
+		position: relative
+		transition: all .35s ease-out
+		&:after
+			content: ""
+			position: absolute
+			top: 0
+			right: -40px
+			border-style: solid
+			border-width: 38px 0px 0px 40px
+			border-color: transparent transparent transparent #8963c3
+			width: 8%
+			height: 50%
+		&:before
+			content: ""
+			position: absolute
+			top: 38px
+			right: -40px
+			border-style: solid
+			border-width: 0px 0px 38px 40px
+			border-color: transparent transparent transparent #6a45b8
+			width: 8%
+			height: 50%
+		button
+			width: 100%
+			display: inline-block
+			padding: 28px 0
+			text-transform: uppercase
+			color: $white-color
+			font-family: "ProximaNova-Black", $helvetica
+			font-size: em(18px)
+			background-image: linear-gradient(to top, #6a45b8 50%, #8963c3 50%)
+			outline: none
+			border: none
+			transition: all .35s ease-out
+			&:hover
+				color: $main-color
+
+	.persefona
+		content: ""
+		position: absolute
+		top: 123px
+		right: 193px
+		z-index: 3
+
+	.bottom-line1
+		width: 100%
+		height: 12px
+		background-color: #8d6e51
+		margin-top: 30px
+
+	.bottom-line2
+		width: 100%
+		height: 23px
+		background-color: rgba(182, 143, 101, .9)
+		position: relative
+		z-index: 3			
+		
+.work
+	background-image: url(../img/work-bg.jpg)
+	background-size: cover
+	min-height: 625px
+	.content
+		background-image: url(../img/content-bg.jpg)
+		min-height: 625px
+		margin-right: 59px
+		margin-left: -15px
+		.inner
+			
+			min-height: 625px
+			background-color: rgba(89, 72, 160, .7)
