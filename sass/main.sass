@@ -205,13 +205,167 @@ header
 .work
 	background-image: url(../img/work-bg.jpg)
 	background-size: cover
-	min-height: 625px
+	
 	.content
 		background-image: url(../img/content-bg.jpg)
-		min-height: 625px
+		background-size: cover
 		margin-right: 59px
 		margin-left: -15px
+		height: 715px
+		position: relative
+		z-index: 1
+		.molot
+			position: absolute
+			right: -130px
+			bottom: 0
+			background-image: url(../img/molot.png)
+			height: 337px
+			width: 369px
+			z-index: -1
 		.inner
+			min-height: 715px
+			background-color: rgba(89, 72, 160, .6)
+			h2
+				padding-left: 395px
+				padding-top: 25px
+				padding-bottom: 10px
+				margin: 0px
+				font-family: "ProximaNova-Light", $helvetica
+				font-size: em(56px)
+				color: #b8b4d9
+				text-shadow: 1px 2px 2px #594aaf
+				text-transform: uppercase
+			p
+				padding-left: 361px
+				font-family: "ProximaNova-Light", $helvetica
+				font-size: em(25px)
+				color: #b8b4d9
+				text-shadow: 1px 2px 2px #594aaf
+				text-transform: uppercase
+				padding-bottom: 50px
+				&:nth-child(3)
+					padding-left: 85px
+					font-family: "ProximaNova-Bold", $helvetica
+					font-size: em(20px)
+					color: $white-color
+					text-shadow: none
+					padding-bottom: 0	
+					text-transform: uppercase			
+
+			.list1
+				padding-left: 100px
+				margin-bottom: 15px
+				float: left
+				li
+					list-style: disc
+					font-family: "ProximaNova-Light", $helvetica
+					font-size: em(20px)
+					color: $white-color
 			
-			min-height: 625px
-			background-color: rgba(89, 72, 160, .7)
+			.list2
+				padding-left: 85px
+				float: left
+				li
+					margin-bottom: 15px
+					height: 28px
+					list-style: none
+					a
+						font-family: "ProximaNova-Bold", $helvetica
+						font-size: em(20px)
+						padding: 4px 10px
+						color: $white-color
+						line-height: 28px
+						text-transform: uppercase
+						position: relative
+						&:hover
+							text-decoration: none
+							background-color: $main-color
+							&:before
+								content: ""
+								position: absolute
+								top: 0
+								right: -14px
+								border-style: solid
+								border-width: 14.8px 0px 14.8px 14.8px
+								border-color: transparent transparent transparent $main-color
+			button
+				float: right
+				margin-right: 80px
+				margin-top: -50px
+				padding: 25px 40px
+				font-size: em(30px)
+				font-family: "ProximaNova-Black", $helvetica
+				color: $white-color
+				background-image: linear-gradient(to top, #6a45b8 50%, #8963c3 50%)
+				outline: none
+				border: none
+				position: relative
+				transition: all .35s ease-out
+				&:after
+					content: ""
+					position: absolute
+					top: 0px
+					left: -40px
+					border-style: solid
+					border-width: 43px 40px 0px 0px
+					border-color: transparent #8963c3 transparent transparent 
+				&:before
+					content: ""
+					position: absolute
+					top: 43px
+					left: -40px
+					border-style: solid
+					border-width: 0px 40px 44px 0px
+					border-color: transparent #6a45b8 transparent transparent
+				&:hover
+					color: $main-color
+
+			span
+				float: right
+				margin-top: 20px
+				margin-right: 85px
+				width: 210px
+				text-align: right
+				font-family: "ProxinaNova-Light", $helvetica
+				font-size: em(17px)
+				color: #b8b4d9
+				text-shadow: 1px 2px 2px #594aaf
+
+.advantages
+	.head
+		h2
+			font-size: em(60px)
+			color: $white-color
+			font-family: "ProximaNova-Light", $helvetica
+			text-transform: uppercase
+			padding-top: 30px
+	.advantages-item
+		text-align: center
+		.img
+			width: 100%
+			height: 200px
+			text-align: center
+			position: relative
+			.pig
+				position: absolute
+				left: 0
+				bottom: 15px
+				transform: translateX(50%)
+
+	.advantages-text
+		background-color: #594aaf
+		h4
+			color: $white-color
+			font-family: "ProximaNova-Light", $helvetica
+			font-size: em(18px)
+			text-transform: uppercase
+			text-align: center
+			padding: 20px 0 
+			margin: 0
+		p
+			padding: 0 15px
+			font-family: "ProximaNova-Light", $helvetica
+			font-size: em(15px)
+			color: $white-color
+			text-align: left
+			padding-bottom: 30px

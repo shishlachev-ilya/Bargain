@@ -218,13 +218,168 @@ header {
 
 .work {
   background-image: url(../img/work-bg.jpg);
-  background-size: cover;
-  min-height: 625px; }
+  background-size: cover; }
   .work .content {
     background-image: url(../img/content-bg.jpg);
-    min-height: 625px;
+    background-size: cover;
     margin-right: 59px;
-    margin-left: -15px; }
+    margin-left: -15px;
+    height: 715px;
+    position: relative;
+    z-index: 1; }
+    .work .content .molot {
+      position: absolute;
+      right: -130px;
+      bottom: 0;
+      background-image: url(../img/molot.png);
+      height: 337px;
+      width: 369px;
+      z-index: -1; }
     .work .content .inner {
-      min-height: 625px;
-      background-color: rgba(89, 72, 160, 0.7); }
+      min-height: 715px;
+      background-color: rgba(89, 72, 160, 0.6); }
+      .work .content .inner h2 {
+        padding-left: 395px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        margin: 0px;
+        font-family: "ProximaNova-Light", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+        font-size: 3.5em;
+        color: #b8b4d9;
+        text-shadow: 1px 2px 2px #594aaf;
+        text-transform: uppercase; }
+      .work .content .inner p {
+        padding-left: 361px;
+        font-family: "ProximaNova-Light", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+        font-size: 1.5625em;
+        color: #b8b4d9;
+        text-shadow: 1px 2px 2px #594aaf;
+        text-transform: uppercase;
+        padding-bottom: 50px; }
+        .work .content .inner p:nth-child(3) {
+          padding-left: 85px;
+          font-family: "ProximaNova-Bold", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+          font-size: 1.25em;
+          color: #fff;
+          text-shadow: none;
+          padding-bottom: 0;
+          text-transform: uppercase; }
+      .work .content .inner .list1 {
+        padding-left: 100px;
+        margin-bottom: 15px;
+        float: left; }
+        .work .content .inner .list1 li {
+          list-style: disc;
+          font-family: "ProximaNova-Light", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+          font-size: 1.25em;
+          color: #fff; }
+      .work .content .inner .list2 {
+        padding-left: 85px;
+        float: left; }
+        .work .content .inner .list2 li {
+          margin-bottom: 15px;
+          height: 28px;
+          list-style: none; }
+          .work .content .inner .list2 li a {
+            font-family: "ProximaNova-Bold", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+            font-size: 1.25em;
+            padding: 4px 10px;
+            color: #fff;
+            line-height: 28px;
+            text-transform: uppercase;
+            position: relative; }
+            .work .content .inner .list2 li a:hover {
+              text-decoration: none;
+              background-color: #c69c6d; }
+              .work .content .inner .list2 li a:hover:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                right: -14px;
+                border-style: solid;
+                border-width: 14.8px 0px 14.8px 14.8px;
+                border-color: transparent transparent transparent #c69c6d; }
+      .work .content .inner button {
+        float: right;
+        margin-right: 80px;
+        margin-top: -50px;
+        padding: 25px 40px;
+        font-size: 1.875em;
+        font-family: "ProximaNova-Black", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+        color: #fff;
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #6a45b8), color-stop(50%, #8963c3));
+        background-image: -webkit-linear-gradient(bottom, #6a45b8 50%, #8963c3 50%);
+        background-image: linear-gradient(to top, #6a45b8 50%, #8963c3 50%);
+        outline: none;
+        border: none;
+        position: relative;
+        -webkit-transition: all .35s ease-out;
+        transition: all .35s ease-out; }
+        .work .content .inner button:after {
+          content: "";
+          position: absolute;
+          top: 0px;
+          left: -40px;
+          border-style: solid;
+          border-width: 43px 40px 0px 0px;
+          border-color: transparent #8963c3 transparent transparent; }
+        .work .content .inner button:before {
+          content: "";
+          position: absolute;
+          top: 43px;
+          left: -40px;
+          border-style: solid;
+          border-width: 0px 40px 44px 0px;
+          border-color: transparent #6a45b8 transparent transparent; }
+        .work .content .inner button:hover {
+          color: #c69c6d; }
+      .work .content .inner span {
+        float: right;
+        margin-top: 20px;
+        margin-right: 85px;
+        width: 210px;
+        text-align: right;
+        font-family: "ProxinaNova-Light", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+        font-size: 1.0625em;
+        color: #b8b4d9;
+        text-shadow: 1px 2px 2px #594aaf; }
+
+.advantages .head h2 {
+  font-size: 3.75em;
+  color: #fff;
+  font-family: "ProximaNova-Light", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  text-transform: uppercase;
+  padding-top: 30px; }
+
+.advantages .advantages-item {
+  text-align: center; }
+  .advantages .advantages-item .img {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    position: relative; }
+    .advantages .advantages-item .img .pig {
+      position: absolute;
+      left: 0;
+      bottom: 15px;
+      -webkit-transform: translateX(50%);
+          -ms-transform: translateX(50%);
+              transform: translateX(50%); }
+
+.advantages .advantages-text {
+  background-color: #594aaf; }
+  .advantages .advantages-text h4 {
+    color: #fff;
+    font-family: "ProximaNova-Light", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-size: 1.125em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0; }
+  .advantages .advantages-text p {
+    padding: 0 15px;
+    font-family: "ProximaNova-Light", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-size: 0.9375em;
+    color: #fff;
+    text-align: left;
+    padding-bottom: 30px; }
